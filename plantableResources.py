@@ -1,4 +1,4 @@
-# Alana Wesly, ICS 311 Assignment 5 - a Sea of Islands
+# Alana Wesly, 07/12/2025. ICS 311 Assignment 5 - a Sea of Islands
 # Algorithms for plantable resources to be shared across islands 
 import heapq
 
