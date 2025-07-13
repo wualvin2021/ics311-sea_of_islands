@@ -66,14 +66,12 @@ def assign_deliveries(queue, canoes_available, distances):
     return delivery_log
 
 # example testing 
-# Set the source island and number of canoes
+# set the source island and number of canoes
 source_island = "Oahu"
 canoes = 2
-
-# Pipeline execution
+# use the algorithms
 distances = dijkstra(graph, source_island)
 delivery_queue = build_delivery_queue(distances, source_island)
 delivery_plan = assign_deliveries(delivery_queue, canoes, distances)
-
-# Result: List of (canoe_id, destination_island, one-way travel_time)
+# print the result
 print(delivery_plan)
