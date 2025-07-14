@@ -1,4 +1,5 @@
-# note that this code also uses 
+# note that this code also uses plantableResources.py attributes to function 
+#
 # Scoring weights
 X = 1.0  # population importance
 Y = 1.0  # recency importance
