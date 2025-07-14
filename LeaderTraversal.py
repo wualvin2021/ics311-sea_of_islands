@@ -1,8 +1,9 @@
 # note that this code also uses plantableResources.py attributes to function 
-#
+# Alvin Wu, 07/12/2025. ICS 311 Assignment 5 - a Sea of Islands
+
 # Scoring weights
-X = 1.0  # population importance
-Y = 1.0  # recency importance
+X = 1.0  # population (priority) 
+Y = 0.1  # recency (less pritority)
 
 def get_priority_score(island, current_time):
     pop = attributes[island]["population"]
